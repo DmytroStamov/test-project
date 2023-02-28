@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <script  src="https://code.jquery.com/jquery-3.6.0.min.js"  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="  crossorigin="anonymous"></script>
+  <script src="./js/jcf.js"></script>
+  <script src="./js/jcf.select.js"></script>
+  <script src="./js/jquery.main.js"></script>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Signika+Negative:wght@500&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div class="container">
+    <form action="" class="form">
+      <div class="row">
+        <input type="radio" name="gender" id="radio-1" class="radio-btn">
+        <label for="radio-1" class="label-radio">Male</label>
+      </div>
+      <div class="row">
+        <input type="radio" name="gender" id="radio-2" class="radio-btn">
+        <label for="radio-2" class="label-radio">Female</label>
+      </div>
+      <div class="row">
+        <label for="city" class="select-label">Choose your sity:</label>
+        <select name="" class="select" id="city" data-jcf='{"wrapNative": false, "wrapNativeOnMobile": false}'>
+          <option value="">Kiev</option>
+          <option value="">Odesa</option>
+          <option value="">Lviv</option>
+        </select>
+      </div>
+      <div class="row">
+        <input type="checkbox" name="agree" id="checker-agree" class="agree-check-box">
+        <label for="checker-agree" class="label-agree-check-box">Yes, I agree</label>
+      </div>
+    </form>
+  </div> 
+</body>
+</html>
